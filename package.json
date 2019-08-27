@@ -1,0 +1,18 @@
+{
+  "name": "table_game",
+  "version": "0.0.1",
+  "description": "we are idiots <(^_^)>",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "cssnano": "^4.1.7",
+    "parcel": "^1.11.0"
+  }
+}
