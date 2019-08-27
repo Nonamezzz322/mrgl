@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import GameField from './gamefield'
 
-class GameField extends React.Component{
+class Game extends React.Component{
 
   constructor() {
     super();
 
+    this.state = {
+    }
   }
 
   render() {
     return(
-      <div className="field">1223</div>
+      <GameField/>
     );
   }
 }
 
-ReactDOM.render(<GameField />,document.getElementById('root'))
+ReactDOM.render(<Game />,document.getElementById('root'))
